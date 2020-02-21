@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SettingTest"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="355.826">
+    <properties></properties>
+
+            <testcase
+                name="changePAssword"
+                time="97.285"
+                classname="com.ExtramarksWebsite_TestCases.SettingTest">
+
+            <failure type="java.lang.AssertionError" message="The following asserts failed:
+	ChangePassword Fail">
+                <![CDATA[java.lang.AssertionError: The following asserts failed:
+	ChangePassword Fail
+                org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)com.ExtramarksWebsite_TestCases.SettingTest.changePAssword(SettingTest.java:149)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)org.testng.internal.Invoker.invokeMethod(Invoker.java:661)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)java.lang.Thread.run(Thread.java:748)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="settingSubscription"
+                time="131.887"
+                classname="com.ExtramarksWebsite_TestCases.SettingTest">
+            </testcase>
+            <testcase
+                name="editProfile"
+                time="97.513"
+                classname="com.ExtramarksWebsite_TestCases.SettingTest">
+            </testcase>
+            <testcase
+                name="redeemVoucher"
+                time="29.141"
+                classname="com.ExtramarksWebsite_TestCases.SettingTest">
+            </testcase>
+</testsuite>

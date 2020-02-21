@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="LearnPracticeTestSuite" parallel="classes">
+  <test name="LearnTest">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.LearnTest"/>
+    </classes>
+  </test> <!-- Learn -->
+    <test name="PracticeTest">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.PracticeTest"/>
+    </classes>
+  </test> <!-- Practice -->
+    <test name="TestTest">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.TestTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LPTSuite -->

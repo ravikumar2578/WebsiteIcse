@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="872.634">
+    <properties></properties>
+
+
+
+            <testcase
+                name="doLogin"
+                time="92.602"
+                classname="com.ExtramarksWebsite_TestCases.LoginTest">
+            </testcase>
+            <testcase
+                name="doLogin"
+                time="325.090"
+                classname="com.ExtramarksWebsite_TestCases.LoginTest">
+            </testcase>
+            <testcase
+                name="doLogin"
+                time="454.942"
+                classname="com.ExtramarksWebsite_TestCases.LoginTest">
+            </testcase>
+</testsuite>

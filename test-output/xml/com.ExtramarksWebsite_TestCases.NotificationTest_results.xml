@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NotificationTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.735">
+    <properties></properties>
+
+
+
+            <testcase
+                name="notificationAccept"
+                time="84.735"
+                classname="com.ExtramarksWebsite_TestCases.NotificationTest">
+            </testcase>
+</testsuite>

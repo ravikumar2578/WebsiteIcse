@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BuyPackageTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="96.495">
+    <properties></properties>
+
+
+
+            <testcase
+                name="openBuyPackage"
+                time="96.495"
+                classname="com.ExtramarksWebsite_TestCases.BuyPackageTest">
+            </testcase>
+</testsuite>

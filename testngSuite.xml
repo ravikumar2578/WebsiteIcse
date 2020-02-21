@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="ExtramarksWebsiteSuite">
+
+	<test thread-count="1" name="LoginTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.LoginTest" />
+		</classes>
+	</test> <!-- LoginTest -->
+	<test thread-count="1" name="SignUpTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.SignUpTest" />
+		</classes>
+	</test> <!-- ExtramarksWebsiteSign Up -->
+	<test thread-count="2" name="StudentDashboardTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.StudentDashboardTest" />
+		</classes>
+	</test> <!-- ExtramarksWebsiteStudentDashboard Test -->
+	<test thread-count="2" name="StudentReportTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.StudentReportTest" />
+		</classes>
+	</test> <!-- ExtramarksWebsiteStudent ReportTest -->
+	<test thread-count="1" name="StudentScheduleTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.StudentScheduleTest" />
+		</classes>
+	</test> <!-- StudentScheduleTest -->
+	<test thread-count="1" name="StudentAssessmentTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.StudentAssessmentTest" />
+		</classes>
+	</test> <!-- StudentAssessmentTest -->
+	<test thread-count="2" name="StudentMentorTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.StudentMentorTest" />
+		</classes>
+	</test> <!-- StudentMentorTest -->
+	<test thread-count="2" name="StudentNotesTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.StudentNotesTest" />
+		</classes>
+	</test> <!-- StudentNotesTest -->
+	<test thread-count="2" name="ParentDashboardTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.ParentDashboardTest" />
+		</classes>
+	</test> <!-- ParentDashboardTest -->
+	<test thread-count="2" name="ParentMyChildTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.ParentMyChildTest" />
+		</classes>
+	</test> <!-- ParentMyChildTest -->
+	<test thread-count="2" name="ParentChildSubscriptionTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.ParentChildSubscriptionTest" />
+		</classes>
+	</test> <!-- ParentChildSubscriptionTest -->
+	<test thread-count="2" name="MentorDashboardTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.MentorDashboardTest" />
+		</classes>
+	</test> <!-- MentorDashboardTest -->
+	<test thread-count="2" name="NotificationTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.NotificationTest" />
+		</classes>
+	</test> <!-- NotificationTest -->
+	<test thread-count="10" name="MentorStudentTest"
+		parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.MentorStudentTest" />
+		</classes>
+	</test> <!-- ExtramarksWebsiteTest -->
+	<test thread-count="2" name="MentorAssessmentTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.MentorAssessmentTest" />
+		</classes>
+	</test> <!-- MentorAssessmentTest -->
+	<test thread-count="2" name="BuyPackageTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.BuyPackageTest" />
+		</classes>
+	</test> <!-- BuyPackageTest -->
+
+	<test thread-count="2" name="SettingTest" parallel="methods">
+		<classes>
+			<class name="com.ExtramarksWebsite_TestCases.SettingTest" />
+		</classes>
+	</test> <!-- ExtramarksWebsiteTest -->
+	<test thread-count="1" name="ForgotPasswordTest"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.ExtramarksWebsite_TestCases.ForgotPasswordTest" />
+		</classes>
+	</test> <!-- ForgotPasswordTest -->
+</suite> <!-- ExtramarksWebsiteSuite -->

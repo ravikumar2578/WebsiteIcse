@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParentMyChildTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="160.056">
+    <properties></properties>
+
+
+
+            <testcase
+                name="parentMyChild"
+                time="160.056"
+                classname="com.ExtramarksWebsite_TestCases.ParentMyChildTest">
+            </testcase>
+</testsuite>

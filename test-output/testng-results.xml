@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser name : chrome and version: 78.0.3904.108]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile ->8800132117]]>
+    </line>
+    <line>
+      <![CDATA[Entering UserName ->8800132117]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password ->307093]]>
+    </line>
+    <line>
+      <![CDATA[Your last session was not logged out properly]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : forgotPassword  is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution finished]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49247" started-at="2020-02-15T07:06:51Z" finished-at="2020-02-15T07:07:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49247" started-at="2020-02-15T07:06:51Z" finished-at="2020-02-15T07:07:41Z">
+      <class name="com.ExtramarksWebsite_TestCases.ForgotPasswordTest">
+        <test-method status="PASS" signature="init(java.lang.reflect.Method)[pri:0, instance:com.ExtramarksWebsite_TestCases.ForgotPasswordTest@609bcfb6]" name="init" is-config="true" duration-ms="228" started-at="2020-02-15T12:36:52Z" finished-at="2020-02-15T12:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExtramarksWebsite_TestCases.ForgotPasswordTest.forgotPassword(java.util.Hashtable) throws java.lang.InterruptedException,java.sql.SQLException,java.lang.ClassNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="forgotPassword(java.util.Hashtable)[pri:1, instance:com.ExtramarksWebsite_TestCases.ForgotPasswordTest@609bcfb6]" name="forgotPassword" duration-ms="43341" started-at="2020-02-15T12:36:52Z" data-provider="getData" finished-at="2020-02-15T12:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RegisteredMobile/Email=8800132117, ExpectedResult=Success, Password=924175, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser name : chrome and version: 78.0.3904.108]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile ->8800132117]]>
+            </line>
+            <line>
+              <![CDATA[Entering UserName ->8800132117]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password ->307093]]>
+            </line>
+            <line>
+              <![CDATA[Your last session was not logged out properly]]>
+            </line>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="logOut(org.testng.ITestResult)[pri:0, instance:com.ExtramarksWebsite_TestCases.ForgotPasswordTest@609bcfb6]" name="logOut" is-config="true" duration-ms="5317" started-at="2020-02-15T12:37:35Z" finished-at="2020-02-15T12:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword status=SUCCESS method=ForgotPasswordTest.forgotPassword(java.util.Hashtable)[pri:1, instance:com.ExtramarksWebsite_TestCases.ForgotPasswordTest@609bcfb6] output=Opening Browser]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : forgotPassword  is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.ExtramarksWebsite_TestCases.ForgotPasswordTest@609bcfb6]" name="quit" is-config="true" duration-ms="1" started-at="2020-02-15T12:37:41Z" finished-at="2020-02-15T12:37:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution finished]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.ExtramarksWebsite_TestCases.ForgotPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

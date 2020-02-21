@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParentDashboardTest"
+           tests="3"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="130.752">
+    <properties></properties>
+
+            <testcase
+                name="parentDashboardAddChild"
+                time="41.173"
+                classname="com.ExtramarksWebsite_TestCases.ParentDashboardTest">
+
+            <failure type="org.openqa.selenium.UnhandledAlertException" message="unexpected alert open: {Alert text : Your last session was not logged out properly. With this login we are destroying all your previous login.}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds: null
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;E4795_Tech&apos;, ip: &apos;10.1.17.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58439}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\E8837\AppData\Local\Temp\scoped_dir3668_2101730274}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6e52dedef6cdb2bcfb8bbd7c79783928
+*** Element info: {Using=xpath, value=//li[@class=&apos;active &apos;]//a[contains(text(),&apos;Parent&apos;)]}">
+                <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Your last session was not logged out properly. With this login we are destroying all your previous login.}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds: null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'E4795_Tech', ip: '10.1.17.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58439}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\E8837\AppData\Local\Temp\scoped_dir3668_2101730274}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6e52dedef6cdb2bcfb8bbd7c79783928
+*** Element info: {Using=xpath, value=//li[@class='active ']//a[contains(text(),'Parent')]}
+                sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.lang.reflect.Constructor.newInstance(Constructor.java:423)org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)org.openqa.selenium.By$ByXPath.findElements(By.java:356)org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)com.sun.proxy.$Proxy29.size(Unknown Source)com.ExtramarksWebsite_Pages.DashBoardPage.ParentTab(DashBoardPage.java:197)com.ExtramarksWebsite_TestCases.ParentDashboardTest.parentDashboardAddChild(ParentDashboardTest.java:171)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)org.testng.internal.Invoker.invokeMethod(Invoker.java:661)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)java.lang.Thread.run(Thread.java:748)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="parentDashboardViewActivity"
+                time="79.063"
+                classname="com.ExtramarksWebsite_TestCases.ParentDashboardTest">
+
+            <failure type="org.openqa.selenium.remote.SessionNotFoundException" message="Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;E4795_Tech&apos;, ip: &apos;10.1.17.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: RemoteWebDriver">
+                <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'E4795_Tech', ip: '10.1.17.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+                org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)com.ExtramarksWebsite_Pages.LoginPage.doLogin(LoginPage.java:77)com.ExtramarksWebsite_TestCases.BaseTest.defaultLogin(BaseTest.java:147)com.ExtramarksWebsite_TestCases.ParentDashboardTest.parentDashboardViewActivity(ParentDashboardTest.java:207)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)org.testng.internal.Invoker.invokeMethod(Invoker.java:661)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)java.lang.Thread.run(Thread.java:748)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="mentorDashboardMenu"
+                time="10.516"
+                classname="com.ExtramarksWebsite_TestCases.ParentDashboardTest">
+            </testcase>
+</testsuite>

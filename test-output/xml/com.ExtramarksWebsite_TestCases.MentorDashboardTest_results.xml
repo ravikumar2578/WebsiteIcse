@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MentorDashboardTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="356.299">
+    <properties></properties>
+
+
+
+            <testcase
+                name="mentorDashboardaddSchedule"
+                time="113.026"
+                classname="com.ExtramarksWebsite_TestCases.MentorDashboardTest">
+            </testcase>
+            <testcase
+                name="mentorDashboardViewActivity"
+                time="105.640"
+                classname="com.ExtramarksWebsite_TestCases.MentorDashboardTest">
+            </testcase>
+            <testcase
+                name="mentorDashboardMenu"
+                time="137.633"
+                classname="com.ExtramarksWebsite_TestCases.MentorDashboardTest">
+            </testcase>
+</testsuite>

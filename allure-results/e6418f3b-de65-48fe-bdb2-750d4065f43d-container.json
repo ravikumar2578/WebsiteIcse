@@ -1,0 +1,1 @@
+{"uuid":"e6418f3b-de65-48fe-bdb2-750d4065f43d","name":"com.ExtramarksWebsite_TestCases.LoginTest.logOut","description":"","start":1581751410186,"stop":1581751415668,"children":["c3cc21bd-2d5c-425d-8139-8953f6c426b8"],"afters":[{"name":"logOut","status":"passed","stage":"finished","description":"","start":1581751410186,"stop":1581751415668}]}

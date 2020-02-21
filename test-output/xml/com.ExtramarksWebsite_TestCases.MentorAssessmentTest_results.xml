@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MentorAssessmentTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="172.206">
+    <properties></properties>
+
+
+
+            <testcase
+                name="MentorAssessment"
+                time="172.206"
+                classname="com.ExtramarksWebsite_TestCases.MentorAssessmentTest">
+            </testcase>
+</testsuite>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [ExtramarksWebsiteSuite]">
+  <test name="SignUpTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.SignUpTest">
+        <methods>
+          <include name="signUp" invocation-numbers="0"/>
+          <include name="logOut"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+  <test name="StudentReportTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.StudentReportTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="logOut"/>
+          <include name="Report" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.StudentReportTest -->
+    </classes>
+  </test> <!-- StudentReportTest(failed) -->
+  <test name="StudentScheduleTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.StudentScheduleTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="mySchedule" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.StudentScheduleTest -->
+    </classes>
+  </test> <!-- StudentScheduleTest(failed) -->
+  <test name="StudentNotesTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.StudentNotesTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="verifysharedNotes" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="shareNotes"/>
+          <include name="addNotes" invocation-numbers="0"/>
+          <include name="editNotes" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="viewLesson" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.StudentNotesTest -->
+    </classes>
+  </test> <!-- StudentNotesTest(failed) -->
+  <test name="ParentDashboardTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.ParentDashboardTest">
+        <methods>
+          <include name="quit"/>
+          <include name="mentorDashboardMenu" invocation-numbers="0"/>
+          <include name="parentDashboardViewActivity" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="logOut"/>
+          <include name="parentDashboardAddChild" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.ParentDashboardTest -->
+    </classes>
+  </test> <!-- ParentDashboardTest(failed) -->
+  <test name="ParentChildSubscriptionTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.ParentChildSubscriptionTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="logOut"/>
+          <include name="parentChildSubscription" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.ParentChildSubscriptionTest -->
+    </classes>
+  </test> <!-- ParentChildSubscriptionTest(failed) -->
+  <test name="SettingTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.SettingTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quit"/>
+          <include name="settingSubscription" invocation-numbers="0"/>
+          <include name="changePAssword" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.SettingTest -->
+    </classes>
+  </test> <!-- SettingTest(failed) -->
+  <test name="ForgotPasswordTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.ExtramarksWebsite_TestCases.ForgotPasswordTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="quit"/>
+          <include name="forgotPassword" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ExtramarksWebsite_TestCases.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- ForgotPasswordTest(failed) -->
+</suite> <!-- Failed suite [ExtramarksWebsiteSuite] -->
