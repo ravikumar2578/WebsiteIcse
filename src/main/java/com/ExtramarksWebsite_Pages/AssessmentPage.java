@@ -19,7 +19,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
-
+// a public method to assesment page which extends base page class 
 public class AssessmentPage extends BasePage {
 	@FindBy(partialLinkText = "Attempt Assessment")
 	List<WebElement> AttemptAssessment;
@@ -104,7 +104,7 @@ public class AssessmentPage extends BasePage {
 			test.log(LogStatus.INFO, "No Answer Found");
 		}
 	}
-
+// handelling exception
 	public void Evaluated() throws IOException, InterruptedException {
 		Evaluated.click();
 		if(ViewAssessment.size()!=0) {
